@@ -12,14 +12,14 @@ namespace mario
             //  devuelve 0 si no se pudo convertir
             int.TryParse( Console.ReadLine(), out niveles);
 
-            System.Console.WriteLine( dibujarPiramide(niveles) );
+             dibujarPiramide(niveles);
 
         }
 
-        static string dibujarPiramide(int niveles){
+        static void dibujarPiramide(int niveles){
             
             
-            return "";
+            
         }
     }
 }
