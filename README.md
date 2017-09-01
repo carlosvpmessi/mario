@@ -1,23 +1,23 @@
- #Mario
+ # Mario
 
- #TL;DR
+ # TL;DR
 Implementar un programa que imprima una media pirámide de una altura especificada, según lo siguiente.
 
 mario
 Altura: 5
-     &#35; &#35;<br />
-    &#35; &#35; &#35;<br />
-   &#35; &#35; &#35; &#35;<br />
-  &#35; &#35; &#35; &#35; &#35;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#35; &#35;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#35; &#35; &#35;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#35; &#35; &#35; &#35;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&#35; &#35; &#35; &#35; &#35;<br />
  &#35; &#35; &#35; &#35; &#35; &#35;<br />
 
 mario
 Altura: 3
-   &#35; &#35;<br />
-  &#35; &#35; &#35;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#35; &#35;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&#35; &#35; &#35;<br />
  &#35; &#35; &#35; &#35;<br />
 
- #Especificación
+ # Especificación
 * Escriba un programa que recrea esta media pirámide usando hashes ( &#35;) para los bloques.
 
 * Para hacer las cosas más interesantes, primero pide al usuario la altura de la media pirámide, un entero no negativo no mayor que 23.
