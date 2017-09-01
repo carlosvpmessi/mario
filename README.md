@@ -4,7 +4,7 @@
 Implementar un programa que imprima una media pirámide de una altura especificada, según lo siguiente.
 
 mario
-Altura: 5
+Altura: 5<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#35; &#35;<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#35; &#35; &#35;<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#35; &#35; &#35; &#35;<br />
@@ -12,7 +12,7 @@ Altura: 5
  &#35; &#35; &#35; &#35; &#35; &#35;<br />
 
 mario
-Altura: 3
+Altura: 3<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#35; &#35;<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&#35; &#35; &#35;<br />
  &#35; &#35; &#35; &#35;<br />
