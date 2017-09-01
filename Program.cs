@@ -6,7 +6,20 @@ namespace mario
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Altura de la piramide: ");
+            int niveles;
+            /// Tryparse convierte la representación de una cadena (string) a su equivalente entero (int). Un valor devuelto indica si la conversión tuvo éxito.
+            //  devuelve 0 si no se pudo convertir
+            int.TryParse( Console.ReadLine(), out niveles);
+
+            System.Console.WriteLine( dibujarPiramide(niveles) );
+
+        }
+
+        static string dibujarPiramide(int niveles){
+            
+            
+            return "";
         }
     }
 }
