@@ -24,6 +24,6 @@ Altura: 3
 
 * Si el usuario no proporciona un entero no negativo que no sea mayor 23, debe volver a solicitarlo de nuevo.
 
-* Luego, genere (con la ayuda de Console.WriteLine uno o más bucles) la media pirámide deseada.
+* Luego, genere (con la ayuda de Console.WriteLine y uno o más bucles (for, while, etc.) la media pirámide deseada.
 
 * Tenga cuidado de alinear la esquina inferior izquierda de su media pirámide con el borde izquierdo de la ventana del terminal.
