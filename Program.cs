@@ -6,20 +6,42 @@ namespace mario
     {
         static void Main(string[] args)
         {
-            Console.Write("Altura de la piramide: ");
-            int niveles;
-            /// Tryparse convierte la representación de una cadena (string) a su equivalente entero (int). Un valor devuelto indica si la conversión tuvo éxito.
-            //  devuelve 0 si no se pudo convertir
-            int.TryParse( Console.ReadLine(), out niveles);
+          String cad="";
+          String cad2="";
+          int a,w,y;
+          Console.WriteLine(" ****--  Escriba el numero de longitud de tu piramide :v --**** ");
+          a = Convert.ToInt32(Console.ReadLine());
+          for(y=1;y<a+1;y++)
+          {
+              cad = "";
+              for(w=1;w<y+1;w++)
+              {
+                  cad=cad+"#";
+              }
+              System.Console.WriteLine(cad.PadLeft(a));
+             // cad=cad+"\n";
+          }
+          
+          System.Console.WriteLine(cad);
 
-             dibujarPiramide(niveles);
+          //aquiva el otro for para la inversa
+          Console.WriteLine(" ****--  Escriba el numero de longitud de tu piramide :v --**** ");
+          a = Convert.ToInt32(Console.ReadLine());
+          for(y=1;y>a+1;y++)
+          {
+              cad = " ";
+              for(w=1;w>y+1;w++)
+              {
+                  cad2=cad2+"#";
+              }
+              System.Console.WriteLine(cad2.PadLeft(a));
+              //cad=cad+"\n";
+          }
 
-        }
-        //Todo el código va aquí
-        static void dibujarPiramide(int niveles){
-            
-            
-            
+          Console.WriteLine(cad+cad2);
+          
+          Console.WriteLine("** GRACIAS POR USAR EL PROGRAMA **");
+
         }
     }
 }
